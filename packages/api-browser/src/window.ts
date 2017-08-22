@@ -60,10 +60,10 @@ export class Window extends Emitter implements ssf.WindowCore {
         }
         addAccessibleWindow(options.name, this.innerWindow);
       });
-    }
 
-    if (callback) {
-      callback(this);
+      if (callback) {
+        callback(this);
+      }
     }
   }
 

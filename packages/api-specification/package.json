@@ -7,6 +7,9 @@
     "typedoc": "typedoc --mode file --json type-info.json interface",
     "docs": "npm run typedoc && npm run typedoc2html"
   },
+  "files": [
+    "interface/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/symphonyoss/ContainerJS.git"
@@ -19,7 +22,9 @@
   "homepage": "https://symphonyoss.github.io/ContainerJS/",
   "dependencies": {
     "@types/electron": "1.4.37",
-    "@types/openfin": "^17.0.2",
+    "@types/openfin": "^17.0.2"
+  },
+  "devDependencies": {
     "commander": "^2.9.0",
     "copyfiles": "^1.2.0",
     "gray-matter": "^2.1.1",
